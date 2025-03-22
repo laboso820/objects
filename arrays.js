@@ -17,4 +17,9 @@ const teachers=[
     subject: "english",
 }
 ]
-console.log(teachers[1])
+teachers[1] ={
+    name:"Nick",
+    class: "F3",
+    subject: "physics",
+}
+console.log(teachers[1].name)
