@@ -6,10 +6,10 @@ function sayHello(){
     console.log("how was your day")
 }
 sayHello()
-const balance=200;
+const balance=0;
 const user1={
     name:"obadiah",
-    balance:2000,
+    balance:200,
     account:"thebee",
 }
 const user2={
@@ -18,8 +18,11 @@ const user2={
     account:"1234",
 }
 function withdraw(){
-    if(balance<0){
+    if(balance>0){
         console.log("you have insufficient funds")
+    }
+    else{
+        console.log("you can withdraw")
     }
 }
 withdraw(user1)
